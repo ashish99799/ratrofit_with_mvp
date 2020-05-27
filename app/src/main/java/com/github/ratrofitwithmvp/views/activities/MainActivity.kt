@@ -1,4 +1,4 @@
-package com.github.ratrofitwithmvp.views.activities.main
+package com.github.ratrofitwithmvp.views.activities
 
 import android.app.Activity
 import android.content.Context
@@ -19,7 +19,7 @@ import com.github.ratrofitwithmvp.presenters.MainActivityPresenter
 import com.github.ratrofitwithmvp.utils.LoadImage
 import com.github.ratrofitwithmvp.utils.NewIntentWithData
 import com.github.ratrofitwithmvp.utils.ToastMessage
-import com.github.ratrofitwithmvp.views.activities.github.GithubUser
+import com.github.ratrofitwithmvp.views.listeners.MainActivityListener
 import com.github.ratrofitwithmvp.wegates.RefreshLayoutHelper
 import com.google.gson.Gson
 import com.scwang.smartrefresh.layout.api.RefreshLayout

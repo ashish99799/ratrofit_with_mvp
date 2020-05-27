@@ -1,4 +1,4 @@
-package com.github.ratrofitwithmvp.views.activities.main
+package com.github.ratrofitwithmvp.views.listeners
 
 import com.github.ratrofitwithmvp.model.data.RowData
 

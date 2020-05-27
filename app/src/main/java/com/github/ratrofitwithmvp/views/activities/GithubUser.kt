@@ -1,4 +1,4 @@
-package com.github.ratrofitwithmvp.views.activities.github
+package com.github.ratrofitwithmvp.views.activities
 
 import android.content.Context
 import android.os.Bundle
@@ -21,6 +21,7 @@ import com.github.ratrofitwithmvp.presenters.GithubUserPresenter
 import com.github.ratrofitwithmvp.utils.INTENT_DATA
 import com.github.ratrofitwithmvp.utils.LoadImage
 import com.github.ratrofitwithmvp.utils.ToastMessage
+import com.github.ratrofitwithmvp.views.listeners.GithubUserListener
 import com.google.gson.Gson
 import kotlinx.android.synthetic.main.github_user.*
 import kotlinx.android.synthetic.main.github_user_cell.view.*

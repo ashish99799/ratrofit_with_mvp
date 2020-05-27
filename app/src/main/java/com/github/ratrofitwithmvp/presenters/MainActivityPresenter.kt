@@ -5,7 +5,7 @@ import com.github.ratrofitwithmvp.model.api.ApiClient
 import com.github.ratrofitwithmvp.model.data.DataResponse
 import com.github.ratrofitwithmvp.model.data.RowData
 import com.github.ratrofitwithmvp.utils.CheckInternetConnectionAvailable
-import com.github.ratrofitwithmvp.views.activities.main.MainActivityListener
+import com.github.ratrofitwithmvp.views.listeners.MainActivityListener
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers

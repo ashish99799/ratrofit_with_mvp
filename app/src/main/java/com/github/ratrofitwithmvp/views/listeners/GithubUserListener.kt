@@ -1,4 +1,4 @@
-package com.github.ratrofitwithmvp.views.activities.github
+package com.github.ratrofitwithmvp.views.listeners
 
 import com.github.ratrofitwithmvp.model.data.UserData
 import com.github.ratrofitwithmvp.model.data.UserRipoData
