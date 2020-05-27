@@ -1,4 +1,4 @@
-package com.github.ratrofitwithmvp.model
+package com.github.ratrofitwithmvp.model.data
 
 data class UserRipoData(
     var name: String? = null,

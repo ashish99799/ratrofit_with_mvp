@@ -1,7 +1,7 @@
 package com.github.ratrofitwithmvp.views.activities.github
 
-import com.github.ratrofitwithmvp.model.UserData
-import com.github.ratrofitwithmvp.model.UserRipoData
+import com.github.ratrofitwithmvp.model.data.UserData
+import com.github.ratrofitwithmvp.model.data.UserRipoData
 
 interface GithubUserListener {
     fun showProgress()

@@ -14,9 +14,10 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import com.github.ratrofitwithmvp.R
-import com.github.ratrofitwithmvp.model.RowData
-import com.github.ratrofitwithmvp.model.UserData
-import com.github.ratrofitwithmvp.model.UserRipoData
+import com.github.ratrofitwithmvp.model.data.RowData
+import com.github.ratrofitwithmvp.model.data.UserData
+import com.github.ratrofitwithmvp.model.data.UserRipoData
+import com.github.ratrofitwithmvp.presenters.GithubUserPresenter
 import com.github.ratrofitwithmvp.utils.INTENT_DATA
 import com.github.ratrofitwithmvp.utils.LoadImage
 import com.github.ratrofitwithmvp.utils.ToastMessage
@@ -64,7 +65,8 @@ class GithubUser : AppCompatActivity(),
         lblUserName.text = rowData.login
 
         // Setup Presenter
-        presenter = GithubUserPresenter(this)
+        presenter =
+            GithubUserPresenter(this)
 
         rvUserRipo.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
 

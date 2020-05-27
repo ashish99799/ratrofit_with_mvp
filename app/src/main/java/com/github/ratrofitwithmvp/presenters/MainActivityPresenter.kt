@@ -1,10 +1,11 @@
-package com.github.ratrofitwithmvp.views.activities.main
+package com.github.ratrofitwithmvp.presenters
 
 import android.content.Context
-import com.github.ratrofitwithmvp.api.ApiClient
-import com.github.ratrofitwithmvp.model.DataResponse
-import com.github.ratrofitwithmvp.model.RowData
+import com.github.ratrofitwithmvp.model.api.ApiClient
+import com.github.ratrofitwithmvp.model.data.DataResponse
+import com.github.ratrofitwithmvp.model.data.RowData
 import com.github.ratrofitwithmvp.utils.CheckInternetConnectionAvailable
+import com.github.ratrofitwithmvp.views.activities.main.MainActivityListener
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers

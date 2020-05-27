@@ -1,8 +1,8 @@
-package com.github.ratrofitwithmvp.api
+package com.github.ratrofitwithmvp.model.api
 
-import com.github.ratrofitwithmvp.model.DataResponse
-import com.github.ratrofitwithmvp.model.UserData
-import com.github.ratrofitwithmvp.model.UserRipoData
+import com.github.ratrofitwithmvp.model.data.DataResponse
+import com.github.ratrofitwithmvp.model.data.UserData
+import com.github.ratrofitwithmvp.model.data.UserRipoData
 import io.reactivex.Observable
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit

@@ -14,7 +14,8 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import com.github.ratrofitwithmvp.R
-import com.github.ratrofitwithmvp.model.RowData
+import com.github.ratrofitwithmvp.model.data.RowData
+import com.github.ratrofitwithmvp.presenters.MainActivityPresenter
 import com.github.ratrofitwithmvp.utils.LoadImage
 import com.github.ratrofitwithmvp.utils.NewIntentWithData
 import com.github.ratrofitwithmvp.utils.ToastMessage
@@ -55,7 +56,8 @@ class MainActivity : AppCompatActivity(),
 
     fun initView() {
         // Setup Presenter
-        presenter = MainActivityPresenter(this)
+        presenter =
+            MainActivityPresenter(this)
 
         rvGithubUsers.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
 
